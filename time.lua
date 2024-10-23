@@ -68,11 +68,11 @@ while true do
     time = os.time()
     formattedTime = textutils.formatTime(time, false)
     print(formattedTime)
-    if time >= 5 and time < 5.5 then
+    if time >= 5 and time < 5.2 then
         monitorTick(formattedTime, "sunrise")
         print("Sunrise")
         playmusic(true)
-    elseif time >= 18.32 and time < 18.82 then
+    elseif time >= 18.32 and time < 18.52 then
         monitorTick(formattedTime, "sunset")
         print("Sunset")
         playmusic(false)
